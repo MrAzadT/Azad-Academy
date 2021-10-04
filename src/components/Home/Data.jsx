@@ -6,25 +6,22 @@ const Data = () => {
   const [data, setData] = useState(myData);
   return (
     <div>
-      <div className="p-10 grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+      <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8">
         {data.map((item) => (
-          <div className="rounded overflow-hidden shadow-lg">
-            <img className="w-full" src={item.img} alt="Mountain" />
+          <div className="rounded overflow-hidden bg-gray-200  shadow-lg">
+            <img className="w-72 m-auto " src={item.img} alt="Mountain" />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">{item.name}</div>
-              <p className="text-gray-700 text-base">{item.instructor}</p>
+              <p className="text-gray-700 text-base">
+                Instructor : {item.instructor}
+              </p>
+              <p>Rating : {item.rating}</p>
+              <p>Price : $ {item.price}</p>
+              <p>Experience Level : {item.level} </p>
             </div>
-            <div className="px-6 pt-4 pb-2">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #photography
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #travel
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #winter
-              </span>
-            </div>
+            <button className="h-10 w-32 ml-6 mb-7 text-white rounded-lg bg-indigo-400 hover:bg-indigo-600">
+              Enroll Now
+            </button>
           </div>
         ))}
       </div>

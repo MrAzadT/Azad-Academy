@@ -8,24 +8,25 @@ const Footer = () => {
           <div className="sm:flex sm:mt-8">
             <div className="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
               <div className="flex flex-col w-2/5 ">
-                <span className="font-bold  uppercase mb-2">about</span>
+                <span className="font-bold  uppercase mb-2">Learn more.</span>
                 <p>
-                  Everyone’s talking about coding, but where do you start? This
-                  path will give you an introduction to the world of code and
-                  basic concepts. By the end, you’ll know whether Data Science,
-                  Computer Science or Web Development is right for you.
+                  Hello guys, if you want to become a web developer in 2021 but
+                  not sure which programming language is best for web
+                  development then you have come to the right place. Earlier, I
+                  have shared the best web development courses and web developer
+                  roadmap and today, I am going to talk about the 5 best
+                  programming languages for web development in 2021. Yes, that
+                  includes Javascript.
                 </p>
               </div>
               <div className="flex flex-col">
-                <span className="font-bold  uppercase mt-4 md:mt-0 mb-2">
-                  Icon
-                </span>
+                <span className="font-bold  uppercase mt-4 md:mt-0 mb-2"></span>
                 <span className="my-2">
                   <a
                     href="/"
                     className="text-white text-md hover:text-blue-500"
                   >
-                    <i className=" topIcon fab fa-linkedin"></i>
+                    <i className=" topIcon fa-2x fab fa-linkedin"></i>
                   </a>
                 </span>
                 <span className="my-2">
@@ -33,7 +34,7 @@ const Footer = () => {
                     href="/"
                     className="text-white  text-md hover:text-blue-500"
                   >
-                    <i className=" topIcon fab fa-facebook-square"></i>
+                    <i className=" topIcon fa-2x  fab fa-facebook-square"></i>
                   </a>
                 </span>
                 <span className="my-2">
@@ -41,7 +42,7 @@ const Footer = () => {
                     href="/"
                     className="text-white text-md hover:text-blue-500"
                   >
-                    <i className=" topIcon fab fa-twitter"></i>
+                    <i className=" topIcon fa-2x fab fa-twitter"></i>
                   </a>
                 </span>
                 <span className="my-2">
@@ -49,13 +50,13 @@ const Footer = () => {
                     href="/"
                     className="text-white text-md hover:text-blue-500"
                   >
-                    <i className=" topIcon fab fa-github-square"></i>
+                    <i className=" topIcon fa-2x fab fa-github-square"></i>
                   </a>
                 </span>
               </div>
               <div className="flex flex-col">
                 <span className="font-bold  uppercase mt-4 md:mt-0 mb-2">
-                  Subscribe
+                  Subscribe Now
                 </span>
                 <span className="my-2">
                   <input
@@ -65,7 +66,7 @@ const Footer = () => {
                   />
                 </span>
                 <span className="my-2">
-                  <button className="h-10 w-20 text-white rounded-lg bg-red-500 hover:bg-red-600">
+                  <button className="h-10  w-32 text-white rounded-lg bg-green-500 hover:bg-green-700">
                     Subscribe
                   </button>
                 </span>
