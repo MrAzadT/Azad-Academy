@@ -2,10 +2,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex justify-center align-center">
+    <div className="flex justify-center align-center  md:flex-row    ">
       <div>
-        <div className="lg:2/6 xl:w-2/4 mt-20 lg:mt-40 lg:ml-36 text-left">
-          <div className="text-6xl text-gray-900 leading-none">
+        <div className="lg:2/6 xl:w-2/4 mt-20 lg:mt-40 lg:ml-36  text-left">
+          <div className="text-6xl  text-gray-900 leading-none">
             Learn Programming
           </div>
           <div className="mt-6 text-xl font-light text-true-gray-500 antialiased">

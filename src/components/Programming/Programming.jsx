@@ -38,7 +38,7 @@ const Programming = () => {
         If you are starting with a web development career then I highly
         recommend you to learn Javascript in 2021 and if you need resources, I
         recommend The Complete JavaScript Course: Build a Real-World Project by
-        Azad on Azad Academy. This is one of the best online courses to learn
+        Azad on Azad-Academy. This is one of the best online courses to learn
         JavaScript.
       </p>
       <img
@@ -72,7 +72,7 @@ const Programming = () => {
         great start, not just for web development but for an overall programming
         career. Now, if you need resources to learn Python in 2021, I highly
         recommend Complete Python Bootcamp: Go from zero to hero in Python
-        course by Jose Portilla on Udemy.
+        course by Azad on Azad-Academy.
       </p>
       <img
         className="mt-5 h-80"
@@ -101,8 +101,8 @@ const Programming = () => {
       <p>
         If you have to choose a modern programming language to learn in 2021, I
         highly recommend you to learn TypeScript and if you need a resource,
-        Understanding TypeScript by Maximillian Scwarzmuller and AcadMind is a
-        great course to start with on Udemy.
+        Understanding TypeScript by Azad is a great course to start with
+        Azad-Academy.
       </p>
       <img
         className="mt-5 h-80"
@@ -134,8 +134,8 @@ const Programming = () => {
         Don’t listen to people who say PHP is not useful, if you find it easy,
         go for it, and If you are want to learn PHP for web development in 2021
         and need a resource, I highly recommend PHP with Laravel for beginners —
-        Become a Master in Laravel course from Udemy. A great online course to
-        learn both PHP and Laravel in depth.
+        Become a Master in Laravel course from Azad-Academy. A great online
+        course to learn both PHP and Laravel in depth.
       </p>
       <img
         className="mt-5 h-80"
@@ -166,8 +166,8 @@ const Programming = () => {
       <p>
         If you want to learn Ruby and Ruby on Rails in 2021, I highly recommend
         you to check out The Complete Ruby on Rails Developer course by Rob
-        Percival on Udemy. One of the best course to learn web development with
-        Ruby on Rails and unleash your creativity
+        Percival on Azad-Academy. One of the best course to learn web
+        development with Ruby on Rails and unleash your creativity
       </p>
       <img
         className="mt-5 h-80 mb-4"

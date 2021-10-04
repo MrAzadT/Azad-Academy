@@ -9,7 +9,7 @@ const OurCourse = () => {
         Azad Academy
       </h1>
       <h1 className="text-5xl text-blue-400 text-center mt-5 mb-5  ">
-        Our Course
+        Web Development Courses
       </h1>
 
       <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3  gap-8">
