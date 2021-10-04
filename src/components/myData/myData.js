@@ -19,7 +19,7 @@ const myData = [
     img: "https://res.cloudinary.com/abidazad/image/upload/v1633323815/python_yzfeyo.svg",
     name: "Python",
     instructor: "Azad Tamal",
-    level: "Beginner , Intermediate",
+    level: "Intermediate",
     rating: 4.5,
     price: 12,
   },
